@@ -41,20 +41,22 @@ Partial Class frmBienvenidoUser
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(-2, 305)
+        Me.ProgressBar1.Location = New System.Drawing.Point(-2, 248)
+        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(888, 36)
+        Me.ProgressBar1.Size = New System.Drawing.Size(666, 29)
         Me.ProgressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.ProgressBar1.TabIndex = 0
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Gadugi", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Kabel Bd", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(326, 47)
+        Me.Label1.Location = New System.Drawing.Point(196, 23)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(232, 45)
+        Me.Label1.Size = New System.Drawing.Size(267, 48)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Bienvenido "
         '
@@ -63,22 +65,24 @@ Partial Class frmBienvenidoUser
         Me.lblnombre.AutoSize = True
         Me.lblnombre.Font = New System.Drawing.Font("Gadugi", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblnombre.ForeColor = System.Drawing.Color.White
-        Me.lblnombre.Location = New System.Drawing.Point(210, 123)
+        Me.lblnombre.Location = New System.Drawing.Point(124, 98)
+        Me.lblnombre.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblnombre.Name = "lblnombre"
-        Me.lblnombre.Size = New System.Drawing.Size(241, 45)
+        Me.lblnombre.Size = New System.Drawing.Size(188, 36)
         Me.lblnombre.TabIndex = 2
         Me.lblnombre.Text = "nombreUser"
         '
         'frmBienvenidoUser
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.OrangeRed
-        Me.ClientSize = New System.Drawing.Size(886, 340)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(233, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(664, 276)
         Me.Controls.Add(Me.lblnombre)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.MaximizeBox = False
         Me.Name = "frmBienvenidoUser"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

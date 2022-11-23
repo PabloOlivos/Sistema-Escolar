@@ -13,11 +13,11 @@ Public Class frmRecuperarContrasena
 #Region "Cambio de colores de botones"
 
     Private Sub btnEnviar_MouseEnter(sender As Object, e As EventArgs) Handles btnEnviar.MouseEnter
-        btnEnviar.BackColor = Color.DeepSkyBlue
+        btnEnviar.BackColor = Color.LightSalmon
     End Sub
 
     Private Sub btnEnviar_MouseLeave(sender As Object, e As EventArgs) Handles btnEnviar.MouseLeave
-        btnEnviar.BackColor = Color.DodgerBlue
+        btnEnviar.BackColor = Color.Salmon
     End Sub
 
 #End Region

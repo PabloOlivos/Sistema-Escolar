@@ -180,7 +180,7 @@ Public Class datUser
         Return Nothing
     End Function
 
-    Public Function listarDirector(dni As String) As DataTable
+    Public Function ListarDirector(dni As String) As DataTable
         Using conexion = ObtenerConexion()
             conexion.Open()
             Using Command = New SqlCommand()

@@ -20,7 +20,7 @@ Public Class frmagregarSeccion
         If (comprobar()) Then
             objentSeccion._nombreSeccion = txtSeccion.Text
             If rbtinicial.Checked = True Then
-                objentSeccion._nivel = "Inicial"
+                objentSeccion._nivel = "Preescolar"
             End If
             If rbtprimaria.Checked = True Then
                 objentSeccion._nivel = "Primaria"

@@ -1,4 +1,6 @@
 use Colegio_DB
+go
+
 create procedure Actualum (
 @Id int,
 @NombreAlum varchar (50),

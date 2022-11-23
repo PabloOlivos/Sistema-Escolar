@@ -65,11 +65,19 @@ Public Class frmLogin
 #End Region
 #Region "Cambio de color de botones"
     Private Sub btnIngresar_MouseEnter(sender As Object, e As EventArgs) Handles btnIngresar.MouseEnter
-        btnIngresar.BackColor = Color.DarkOrange
+        btnIngresar.BackColor = Color.DarkSalmon
     End Sub
 
     Private Sub btnIngresar_MouseLeave(sender As Object, e As EventArgs) Handles btnIngresar.MouseLeave
-        btnIngresar.BackColor = Color.Orange
+        btnIngresar.BackColor = Color.Salmon
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
+
+    Private Sub txtUser_TextChanged(sender As Object, e As EventArgs) Handles txtUser.TextChanged
+
     End Sub
 #End Region
 End Class

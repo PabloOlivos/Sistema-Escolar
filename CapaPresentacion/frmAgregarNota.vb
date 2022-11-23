@@ -239,10 +239,18 @@ Public Class frmAgregarNota
     End Sub
 
 #End Region
-    
+
 #Region "Finalizar"
     Protected Overrides Sub Finalize()
         Me.Close()
+    End Sub
+
+    Private Sub cmbcodigocurso_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbcodigocurso.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
     End Sub
 #End Region
 

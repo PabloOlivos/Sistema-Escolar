@@ -72,7 +72,7 @@ Public Class frmAgregarMatricula
         ElseIf rbtPrimaria.Checked = True Then
             cargarDatosSeccionPrimaria()
         Else
-            MsgBox("Debe elegir primaria o inicial")
+            MsgBox("Debe elegir primaria o preescolar")
         End If
 
     End Sub
@@ -117,7 +117,7 @@ Public Class frmAgregarMatricula
                         objentMatricula.objentgrado._codigoGrado = cmbcodGrado.SelectedValue
                         objentMatricula.objentSeccion._codigoSeccion = cmbcodseccion.SelectedValue
                         If rbtinicial.Checked = True Then
-                            objentMatricula._nivelAlumno = "Inicial"
+                            objentMatricula._nivelAlumno = "Preescolar"
 
                         End If
                         If rbtPrimaria.Checked = True Then

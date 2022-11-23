@@ -1,19 +1,21 @@
 -------------------------------------------------------------------------------------------
 ---->>>>>>>>>PROCEDIMIENTOS ALMACENADOS TABLA SECCION<<<<<<<-----------
 -------------------------------------------------------------------------------------------
+USE Colegio_DB
+GO
 
 --creamos procedimientos almacenado para registrar seccion
 create procedure registrarSeccion (
 @nombreSeccion varchar(30) ,
 @codigoGrado int,
-@dniProfesor char(8), 
+@numProfesor char(8), 
 @numeroAnno int, 
 @numeroVacantes int,
 @nivel varchar(20)
 ) 
 as 
 begin 
-insert into seccion values (@nombreSeccion, @codigoGrado, @dniProfesor, @numeroAnno, @numeroVacantes, @nivel)
+insert into seccion values (@nombreSeccion, @codigoGrado, @numProfesor, @numeroAnno, @numeroVacantes, @nivel)
 end 
 GO
 --fin del procedimientos almacenado registrar seccion
@@ -43,7 +45,7 @@ begin
 SELECT dbo.seccion.codigoSeccion, dbo.seccion.nombreSeccion
 FROM     dbo.grado INNER JOIN
                   dbo.seccion ON dbo.grado.codigoGrado = dbo.seccion.codigoGrado 
-				  WHERE  dbo.grado.numeroGrado=@grado  and dbo.seccion.nivel='Inicial' and dbo.grado.nivelGrado='Inicial' and dbo.seccion.numeroAnno=@anno
+				  WHERE  dbo.grado.numeroGrado=@grado  and dbo.seccion.nivel='Preescolar' and dbo.grado.nivelGrado='Preescolar' and dbo.seccion.numeroAnno=@anno
 
 end
 GO
@@ -56,7 +58,7 @@ begin
  SELECT dbo.seccion.codigoSeccion, dbo.seccion.nombreSeccion, dbo.grado.numeroGrado, dbo.profesor.nombreProfesor, dbo.seccion.numeroAnno, dbo.seccion.numeroVacantes, dbo.seccion.nivel
 FROM     dbo.grado INNER JOIN
                   dbo.seccion ON dbo.grado.codigoGrado = dbo.seccion.codigoGrado INNER JOIN
-                  dbo.profesor ON dbo.seccion.dniProfesor = dbo.profesor.dniProfesor  
+                  dbo.profesor ON dbo.seccion.numProfesor = dbo.profesor.numProfesor  
 end
 GO
 --fin de la creacion del procedimiento almacenado 
@@ -102,7 +104,7 @@ create procedure VerificarSiExisteSeccionYGradoI(
 @codigoGrado int)
 as begin 
 SELECT * FROM seccion
-          WHERE   nombreSeccion= @nombreSeccion and codigoGrado=@codigoGrado and nivel='Inicial' and numeroAnno=@anno 
+          WHERE   nombreSeccion= @nombreSeccion and codigoGrado=@codigoGrado and nivel='Preescolar' and numeroAnno=@anno 
 END 
 GO
 --fin de la creacion del procedimietno almacenado 

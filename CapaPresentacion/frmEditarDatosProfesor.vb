@@ -63,5 +63,9 @@ Public Class frmEditarDatosProfesor
         txtcorreouser.Clear()
         txtcargouser.Clear()
     End Sub
+
+    Private Sub txtcargouser_TextChanged(sender As Object, e As EventArgs) Handles txtcargouser.TextChanged
+
+    End Sub
 #End Region
 End Class

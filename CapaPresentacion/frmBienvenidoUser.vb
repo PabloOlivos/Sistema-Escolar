@@ -30,6 +30,10 @@ Public Class frmBienvenidoUser
             Me.Close()
         End If
     End Sub
+
+    Private Sub lblnombre_Click(sender As Object, e As EventArgs) Handles lblnombre.Click
+
+    End Sub
 #End Region
 
 End Class

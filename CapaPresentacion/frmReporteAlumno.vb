@@ -16,7 +16,7 @@ Public Class frmReporteAlumno
         ElseIf rbtPrimaria.Checked = True Then
             cargarDatosSeccionPrimaria()
         Else
-            MsgBox("Debe elegir primaria o inicial")
+            MsgBox("Debe elegir primaria o Preescolar")
         End If
     End Sub
 
@@ -58,7 +58,7 @@ Public Class frmReporteAlumno
         Dim objneg As New negAlumno
         Dim nivel As String = ""
         If rbtinicial.Checked = True Then
-            nivel = "Inicial"
+            nivel = "Preescolar"
         ElseIf rbtPrimaria.Checked = True Then
             nivel = "Primaria"
         End If

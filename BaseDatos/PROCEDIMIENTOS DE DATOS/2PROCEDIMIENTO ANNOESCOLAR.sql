@@ -1,6 +1,8 @@
 -------------------------------------------------------------------------------------------
 ---->>>>>>>>>PROCEDIMIENTOS ALMACENADOS TABLA ANNO ESCOLAR <<<<<<<-----------
 -------------------------------------------------------------------------------------------
+USE Colegio_DB
+GO
 
 -----Procedimiento almacenado para registrar el Año Escolar-----
 create procedure registrarAnnoEscolar(
@@ -12,4 +14,5 @@ as
 begin 
 insert into annoEscolar values ( @numeroAnno, @fechaInicio, @fechaTermino) 
 end 
+GO
 --fin del procedimiento alamcenado

@@ -37,7 +37,7 @@ Public Class negUser
         Return objdatUser.listarProfesores(dni)
     End Function
     Public Function listarDirector(dni As String) As DataTable
-        Return objdatUser.listarDirector(dni)
+        Return objdatUser.ListarDirector(dni)
     End Function
 End Class
 

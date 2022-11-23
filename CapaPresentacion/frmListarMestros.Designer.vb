@@ -41,32 +41,35 @@ Partial Class frmListarMestros
         'btnListar
         '
         Me.btnListar.BackColor = System.Drawing.Color.DodgerBlue
-        Me.btnListar.Font = New System.Drawing.Font("Gadugi", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnListar.Font = New System.Drawing.Font("Graphik Bold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnListar.ForeColor = System.Drawing.Color.White
-        Me.btnListar.Location = New System.Drawing.Point(919, 487)
+        Me.btnListar.Location = New System.Drawing.Point(34, 369)
+        Me.btnListar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnListar.Name = "btnListar"
-        Me.btnListar.Size = New System.Drawing.Size(201, 57)
+        Me.btnListar.Size = New System.Drawing.Size(151, 46)
         Me.btnListar.TabIndex = 28
-        Me.btnListar.Text = "Listar"
+        Me.btnListar.Text = "Guardar"
         Me.btnListar.UseVisualStyleBackColor = False
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(220, 183)
+        Me.DataGridView1.Location = New System.Drawing.Point(228, 36)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(670, 361)
+        Me.DataGridView1.Size = New System.Drawing.Size(621, 379)
         Me.DataGridView1.TabIndex = 27
         '
         'btnMostrar
         '
         Me.btnMostrar.BackColor = System.Drawing.Color.DodgerBlue
-        Me.btnMostrar.Font = New System.Drawing.Font("Gadugi", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMostrar.Font = New System.Drawing.Font("Graphik Bold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMostrar.ForeColor = System.Drawing.Color.White
-        Me.btnMostrar.Location = New System.Drawing.Point(896, 98)
+        Me.btnMostrar.Location = New System.Drawing.Point(34, 307)
+        Me.btnMostrar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnMostrar.Name = "btnMostrar"
-        Me.btnMostrar.Size = New System.Drawing.Size(201, 57)
+        Me.btnMostrar.Size = New System.Drawing.Size(151, 46)
         Me.btnMostrar.TabIndex = 26
         Me.btnMostrar.Text = "Mostrar"
         Me.btnMostrar.UseVisualStyleBackColor = False
@@ -74,29 +77,34 @@ Partial Class frmListarMestros
         'cmbannoEscolar
         '
         Me.cmbannoEscolar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbannoEscolar.Font = New System.Drawing.Font("Graphik Bold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbannoEscolar.FormattingEnabled = True
-        Me.cmbannoEscolar.Location = New System.Drawing.Point(269, 66)
+        Me.cmbannoEscolar.Location = New System.Drawing.Point(34, 47)
+        Me.cmbannoEscolar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbannoEscolar.Name = "cmbannoEscolar"
-        Me.cmbannoEscolar.Size = New System.Drawing.Size(143, 24)
+        Me.cmbannoEscolar.Size = New System.Drawing.Size(108, 30)
         Me.cmbannoEscolar.TabIndex = 82
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Gadugi", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Graphik Bold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(265, 41)
+        Me.Label1.Location = New System.Drawing.Point(30, 23)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(147, 24)
+        Me.Label1.Size = New System.Drawing.Size(127, 22)
         Me.Label1.TabIndex = 81
         Me.Label1.Text = "AÑO ESCOLAR"
         '
         'rbtPrimaria
         '
         Me.rbtPrimaria.AutoSize = True
-        Me.rbtPrimaria.Location = New System.Drawing.Point(348, 136)
+        Me.rbtPrimaria.Font = New System.Drawing.Font("Graphik Bold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rbtPrimaria.Location = New System.Drawing.Point(34, 144)
+        Me.rbtPrimaria.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.rbtPrimaria.Name = "rbtPrimaria"
-        Me.rbtPrimaria.Size = New System.Drawing.Size(81, 21)
+        Me.rbtPrimaria.Size = New System.Drawing.Size(95, 26)
         Me.rbtPrimaria.TabIndex = 80
         Me.rbtPrimaria.TabStop = True
         Me.rbtPrimaria.Text = "Primaria"
@@ -105,71 +113,80 @@ Partial Class frmListarMestros
         'rbtinicial
         '
         Me.rbtinicial.AutoSize = True
-        Me.rbtinicial.Location = New System.Drawing.Point(269, 136)
+        Me.rbtinicial.Font = New System.Drawing.Font("Graphik Bold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rbtinicial.Location = New System.Drawing.Point(34, 114)
+        Me.rbtinicial.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.rbtinicial.Name = "rbtinicial"
-        Me.rbtinicial.Size = New System.Drawing.Size(64, 21)
+        Me.rbtinicial.Size = New System.Drawing.Size(113, 26)
         Me.rbtinicial.TabIndex = 79
         Me.rbtinicial.TabStop = True
-        Me.rbtinicial.Text = "Inicial"
+        Me.rbtinicial.Text = "Preescolar"
         Me.rbtinicial.UseVisualStyleBackColor = True
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Gadugi", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Graphik Bold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(302, 109)
+        Me.Label4.Location = New System.Drawing.Point(30, 89)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(66, 24)
+        Me.Label4.Size = New System.Drawing.Size(59, 22)
         Me.Label4.TabIndex = 78
         Me.Label4.Text = "NIVEL"
         '
         'cmbcodseccion
         '
         Me.cmbcodseccion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbcodseccion.Font = New System.Drawing.Font("Graphik Bold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbcodseccion.FormattingEnabled = True
-        Me.cmbcodseccion.Location = New System.Drawing.Point(635, 136)
+        Me.cmbcodseccion.Location = New System.Drawing.Point(34, 263)
+        Me.cmbcodseccion.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbcodseccion.Name = "cmbcodseccion"
-        Me.cmbcodseccion.Size = New System.Drawing.Size(143, 24)
+        Me.cmbcodseccion.Size = New System.Drawing.Size(108, 30)
         Me.cmbcodseccion.TabIndex = 77
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Gadugi", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Graphik Bold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(641, 109)
+        Me.Label3.Location = New System.Drawing.Point(30, 242)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(93, 24)
+        Me.Label3.Size = New System.Drawing.Size(85, 22)
         Me.Label3.TabIndex = 76
         Me.Label3.Text = "SECCION"
         '
         'cmbcodGrado
         '
         Me.cmbcodGrado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbcodGrado.Font = New System.Drawing.Font("Graphik Bold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbcodGrado.FormattingEnabled = True
-        Me.cmbcodGrado.Location = New System.Drawing.Point(464, 136)
+        Me.cmbcodGrado.Location = New System.Drawing.Point(34, 206)
+        Me.cmbcodGrado.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbcodGrado.Name = "cmbcodGrado"
-        Me.cmbcodGrado.Size = New System.Drawing.Size(143, 24)
+        Me.cmbcodGrado.Size = New System.Drawing.Size(108, 30)
         Me.cmbcodGrado.TabIndex = 75
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Gadugi", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Graphik Bold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(460, 109)
+        Me.Label6.Location = New System.Drawing.Point(30, 182)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(81, 24)
+        Me.Label6.Size = New System.Drawing.Size(71, 22)
         Me.Label6.TabIndex = 74
         Me.Label6.Text = "GRADO"
         '
         'frmListarMestros
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Orange
-        Me.ClientSize = New System.Drawing.Size(1175, 556)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(110, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(881, 452)
         Me.Controls.Add(Me.cmbannoEscolar)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.rbtPrimaria)
@@ -183,6 +200,7 @@ Partial Class frmListarMestros
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.btnMostrar)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "frmListarMestros"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmListarMestros"

@@ -33,13 +33,13 @@ Partial Class frmReportes
         '
         Me.btnReporteProfesor.BackColor = System.Drawing.Color.DodgerBlue
         Me.btnReporteProfesor.FlatAppearance.BorderSize = 0
-        Me.btnReporteProfesor.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReporteProfesor.Font = New System.Drawing.Font("Gadugi", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReporteProfesor.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnReporteProfesor.Font = New System.Drawing.Font("Graphik Black", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnReporteProfesor.ForeColor = System.Drawing.Color.White
-        Me.btnReporteProfesor.Location = New System.Drawing.Point(43, 184)
-        Me.btnReporteProfesor.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnReporteProfesor.Location = New System.Drawing.Point(41, 107)
+        Me.btnReporteProfesor.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnReporteProfesor.Name = "btnReporteProfesor"
-        Me.btnReporteProfesor.Size = New System.Drawing.Size(341, 58)
+        Me.btnReporteProfesor.Size = New System.Drawing.Size(256, 47)
         Me.btnReporteProfesor.TabIndex = 16
         Me.btnReporteProfesor.Text = "Reportes de Profesor"
         Me.btnReporteProfesor.UseVisualStyleBackColor = False
@@ -48,13 +48,13 @@ Partial Class frmReportes
         '
         Me.btnReporteAlumno.BackColor = System.Drawing.Color.DodgerBlue
         Me.btnReporteAlumno.FlatAppearance.BorderSize = 0
-        Me.btnReporteAlumno.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReporteAlumno.Font = New System.Drawing.Font("Gadugi", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReporteAlumno.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnReporteAlumno.Font = New System.Drawing.Font("Graphik Black", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnReporteAlumno.ForeColor = System.Drawing.Color.White
-        Me.btnReporteAlumno.Location = New System.Drawing.Point(605, 184)
-        Me.btnReporteAlumno.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnReporteAlumno.Location = New System.Drawing.Point(41, 210)
+        Me.btnReporteAlumno.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnReporteAlumno.Name = "btnReporteAlumno"
-        Me.btnReporteAlumno.Size = New System.Drawing.Size(341, 58)
+        Me.btnReporteAlumno.Size = New System.Drawing.Size(256, 47)
         Me.btnReporteAlumno.TabIndex = 17
         Me.btnReporteAlumno.Text = "Reportes de Alumnos"
         Me.btnReporteAlumno.UseVisualStyleBackColor = False
@@ -63,13 +63,13 @@ Partial Class frmReportes
         '
         Me.btnReporteNota.BackColor = System.Drawing.Color.DodgerBlue
         Me.btnReporteNota.FlatAppearance.BorderSize = 0
-        Me.btnReporteNota.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReporteNota.Font = New System.Drawing.Font("Gadugi", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReporteNota.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnReporteNota.Font = New System.Drawing.Font("Graphik Black", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnReporteNota.ForeColor = System.Drawing.Color.White
-        Me.btnReporteNota.Location = New System.Drawing.Point(314, 324)
-        Me.btnReporteNota.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnReporteNota.Location = New System.Drawing.Point(41, 310)
+        Me.btnReporteNota.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnReporteNota.Name = "btnReporteNota"
-        Me.btnReporteNota.Size = New System.Drawing.Size(341, 58)
+        Me.btnReporteNota.Size = New System.Drawing.Size(256, 47)
         Me.btnReporteNota.TabIndex = 18
         Me.btnReporteNota.Text = "Reportes de Notas"
         Me.btnReporteNota.UseVisualStyleBackColor = False
@@ -77,25 +77,27 @@ Partial Class frmReportes
         'lblHora
         '
         Me.lblHora.AutoSize = True
-        Me.lblHora.Font = New System.Drawing.Font("Gadugi", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHora.Font = New System.Drawing.Font("Kabel Bd", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblHora.ForeColor = System.Drawing.Color.White
-        Me.lblHora.Location = New System.Drawing.Point(400, 41)
+        Me.lblHora.Location = New System.Drawing.Point(69, 35)
+        Me.lblHora.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblHora.Name = "lblHora"
-        Me.lblHora.Size = New System.Drawing.Size(189, 40)
+        Me.lblHora.Size = New System.Drawing.Size(228, 44)
         Me.lblHora.TabIndex = 19
         Me.lblHora.Text = "REPORTES "
         '
         'frmReportes
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Orange
-        Me.ClientSize = New System.Drawing.Size(1029, 547)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(110, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(357, 444)
         Me.Controls.Add(Me.lblHora)
         Me.Controls.Add(Me.btnReporteNota)
         Me.Controls.Add(Me.btnReporteAlumno)
         Me.Controls.Add(Me.btnReporteProfesor)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "frmReportes"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmReportes"

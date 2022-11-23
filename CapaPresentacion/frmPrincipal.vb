@@ -64,59 +64,59 @@ Public Class frmPrincipal
     End Sub
 
     Private Sub btnRegistrarMaestro_MouseEnter(sender As Object, e As EventArgs) Handles btnRegistrarMaestro.MouseEnter
-        btnRegistrarMaestro.BackColor = Color.DeepSkyBlue
+        btnRegistrarMaestro.BackColor = Color.Navy
     End Sub
 
     Private Sub btnRegistrarMaestro_MouseLeave(sender As Object, e As EventArgs) Handles btnRegistrarMaestro.MouseLeave
-        btnRegistrarMaestro.BackColor = Color.DodgerBlue
+        btnRegistrarMaestro.BackColor = Color.Navy
     End Sub
 
     Private Sub btnRegistrarAlumno_MouseEnter(sender As Object, e As EventArgs) Handles btnRegistrarAlumno.MouseEnter
-        btnRegistrarAlumno.BackColor = Color.DeepSkyBlue
+        btnRegistrarAlumno.BackColor = Color.Navy
     End Sub
 
     Private Sub btnRegistrarAlumno_MouseLeave(sender As Object, e As EventArgs) Handles btnRegistrarAlumno.MouseLeave
-        btnRegistrarAlumno.BackColor = Color.DodgerBlue
+        btnRegistrarAlumno.BackColor = Color.Navy
     End Sub
 
     Private Sub btnRegistrarNotas_MouseEnter(sender As Object, e As EventArgs) Handles btnRegistrarNotas.MouseEnter
-        btnRegistrarNotas.BackColor = Color.DeepSkyBlue
+        btnRegistrarNotas.BackColor = Color.Navy
     End Sub
 
     Private Sub btnRegistrarNotas_MouseLeave(sender As Object, e As EventArgs) Handles btnRegistrarNotas.MouseLeave
-        btnRegistrarNotas.BackColor = Color.DodgerBlue
+        btnRegistrarNotas.BackColor = Color.Navy
     End Sub
 
     Private Sub btnListarMaestros_MouseEnter(sender As Object, e As EventArgs) Handles btnListarMaestros.MouseEnter
-        btnListarMaestros.BackColor = Color.DeepSkyBlue
+        btnListarMaestros.BackColor = Color.Navy
     End Sub
 
     Private Sub btnListarMaestros_MouseLeave(sender As Object, e As EventArgs) Handles btnListarMaestros.MouseLeave
-        btnListarMaestros.BackColor = Color.DodgerBlue
+        btnListarMaestros.BackColor = Color.Navy
     End Sub
 
     Private Sub btnListarAlumnos_MouseEnter(sender As Object, e As EventArgs) Handles btnListarAlumnos.MouseEnter
-        btnListarAlumnos.BackColor = Color.DeepSkyBlue
+        btnListarAlumnos.BackColor = Color.Navy
     End Sub
 
     Private Sub btnListarAlumnos_MouseLeave(sender As Object, e As EventArgs) Handles btnListarAlumnos.MouseLeave
-        btnListarAlumnos.BackColor = Color.DodgerBlue
+        btnListarAlumnos.BackColor = Color.Navy
     End Sub
 
     Private Sub btnReportes_MouseEnter(sender As Object, e As EventArgs) Handles btnReportes.MouseEnter
-        btnReportes.BackColor = Color.DeepSkyBlue
+        btnReportes.BackColor = Color.Navy
     End Sub
 
     Private Sub btnReportes_MouseLeave(sender As Object, e As EventArgs) Handles btnReportes.MouseLeave
-        btnReportes.BackColor = Color.DodgerBlue
+        btnReportes.BackColor = Color.Navy
     End Sub
 
     Private Sub btnRegistrarSeccion_MouseEnter(sender As Object, e As EventArgs) Handles btnRegistrarSeccion.MouseEnter
-        btnRegistrarSeccion.BackColor = Color.DeepSkyBlue
+        btnRegistrarSeccion.BackColor = Color.Navy
     End Sub
 
     Private Sub btnRegistrarSeccion_MouseLeave(sender As Object, e As EventArgs) Handles btnRegistrarSeccion.MouseLeave
-        btnRegistrarSeccion.BackColor = Color.DodgerBlue
+        btnRegistrarSeccion.BackColor = Color.Navy
     End Sub
 
     Private Sub btnReporteProfesor_Click(sender As Object, e As EventArgs) Handles btnReporteProfesor.Click
@@ -152,6 +152,10 @@ Public Class frmPrincipal
 #Region "Finalizar"
     Protected Overrides Sub Finalize()
         Me.Close()
+    End Sub
+
+    Private Sub lblNombreUser_Click(sender As Object, e As EventArgs) Handles lblNombreUser.Click
+
     End Sub
 #End Region
 End Class

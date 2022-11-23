@@ -22,7 +22,7 @@ Public Class frmListarAlumnos
         ElseIf rbtPrimaria.Checked = True Then
             cargarDatosSeccionPrimaria()
         Else
-            MsgBox("Debe elegir primaria o inicial")
+            MsgBox("Debe elegir primaria o Preescolar")
         End If
     End Sub
 
@@ -64,7 +64,7 @@ Public Class frmListarAlumnos
         Dim objneg As New negAlumno
         Dim nivel As String = ""
         If rbtinicial.Checked = True Then
-            nivel = "Inicial"
+            nivel = "Preescolar"
         ElseIf rbtPrimaria.Checked = True Then
             nivel = "Primaria"
         End If
@@ -79,6 +79,14 @@ Public Class frmListarAlumnos
 #Region "Finalizar"
     Protected Overrides Sub Finalize()
         Me.Close()
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
+
+    Private Sub cmbcodseccion_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbcodseccion.SelectedIndexChanged
+
     End Sub
 #End Region
 
