@@ -26,3 +26,6 @@ De igual forma durante el presente proyecto se presenta la documentación necesa
 ![image](https://user-images.githubusercontent.com/114788305/203656327-01d3af5f-3127-4e05-8add-623007bf149f.png)
 
 ![image](https://user-images.githubusercontent.com/114788305/203656365-0ee23bd8-69b4-4b93-a194-6bf09299a88e.png)
+
+![image](https://user-images.githubusercontent.com/114788305/206248919-8754775b-3f24-47c5-a28a-ff4b2d78a642.png)
+
